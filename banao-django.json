@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "banao-django",
+  "private_key_id": "c8a0ae96b8684b64ae47aeea16550fa0baaedba6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDE3swj4YgBOhA8\nIfwjz/t2SLwfbdyOvBtgfOJRoi8cFlhLbIT+Q45PRWgm2Dm/HzekaFfvyz3B9hOv\nD87hqGJmMbQ4+Se0l3VH97YjvJU5N1359sUkmdQum52Gl2nzzvRkfBkkFAmuXX56\nYdbfEb6ObXFvYRG4h3q/guLscSES/UYnkcuMF6vqYFEwBxS16Sg/IqrUGZgm4sR2\nb7YbuWzcVtgBIWYC9ONQk+HYx68xj3VSUUpCDt8C3ndPZZinbH9mkIlJSAgwsnXY\nN5ofBW+DlMQKupndU7OYYGUoA6zdtLddl1pmGhfWj3bQGw30qA6V/+Rn+etRjdnl\nJNpuLHr1AgMBAAECggEAAWPL78+TyjkYDD9L1w+M0upIibWY1650SFturZeGMEiS\nxFWLys+8nXVRUD+OiM7g8a7a5WfQk8yiREYe9nDd4PgmMZDGEFGmvk9Stds1onsa\n6rzXP3Q75JMCAFqT9j4BHlnR7kibQ46IFLfEGzxg1ViTHcTYVIPVq1cdNatxdFTa\nN4PeI1Nly3ksjtoMgRY8Yr8ODEfBkeyWJe1150V8SS9K3s0UCqqoP2ywU1pSFdtm\nejJPRH+msRN/AIAYH1VNia1bigpQvnhNu1UEgJxBTRVLLwZX3mFRZamvhVx3YGyK\n1YA8c+rbPJAM/Rmd6bNcwmOmm68RAfitjVrPOVAUAQKBgQD8iVPC30HlwnqbwhFC\n8QgK2f8E/wB9m5T/OLz+k6+yQQE4GjQb8cZhCwXC1dMcNFAZMQzUhFuZbKj82BvU\nOPU54KCCsaxnawEUXPB9jY+aimGGxL1st8sXy5iCsazQqcUl3z8tihGQ7xNXoNpc\norzrc0ae2aXPo3NJDqBm+OchtQKBgQDHkgXJrLkekrRDEEx+JL8Z5o4urzZT5ZeB\nc8VBFgZI/bBWcaca/ft3h29GFuLPYvkWoq0l/EUOlzYsRCVF2t1WUW4+/prTPhrE\nirmOBN5F2MdhPz35GoxrrBboJ2gob70S8fLCicmMY9JRc+XB7Z3Jot2bgNw1qjhW\n6AX5qUy8QQKBgCyGffk26eR7tKhvwCFgY/2d0APufgSngM67Dz+HhIvWQEPHAvcG\nWubTTbG7h5xKcPDwIAX8TDYx3V2vMMDrRfltbH9+mhol2Kvhcxl/8xjZWzaqy4c2\npJ1ObVZlw0WLGVKDGR2LYWt/a5agqr94hfyxd3scfsqsU/BGnuto6T+dAoGAJe76\njKf5E/ecrfamI4AGlvy83+DL+cx1LNT9lG6ESVF3OCcoNTg7mS+0FeV5vSO55vSK\n5uJ5mdliIa3eS9XbJnIZ+31Xnnl6iws3U+hW+33GABUOSZAjSsAOJph+8tiyXqyA\nkTuxhK7gpjzaWi85Q79iUhF/SfAN/27g2+CzRkECgYEAtUx9kJdgOJax0VoHrhQ9\nKAjBE1A0mZyxtzSOqGtoXzcEzYJ/4bptII/m/vP0FL003gkIt4M7PmpzDTSCUUKG\nRErg1rWYyiB2eQXZwOJTPsr2XHCXCrx9USI3W34lE4PtQxwDlrG1jYHoz8ppYSUd\nqd2GChFaRQwkYr0w1XrdP6U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "doctor-patient-banao@banao-django.iam.gserviceaccount.com",
+  "client_id": "110622023882247944861",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/doctor-patient-banao%40banao-django.iam.gserviceaccount.com"
+}

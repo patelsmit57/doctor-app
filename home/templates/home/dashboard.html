@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block 'title' %}Dashboard{% endblock 'title' %}
+
+{% block 'page_body' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-11 col-md-11">
+            {% include 'home/messages.html' %}
+            <div class="card-deck">
+                <div class="card">
+                    <div class="col-lg-5 col-md-5">
+                        <img class="card-img-top" src="{{item.picture.url}}" alt="{{item.firstname}}" style="min-height:250px; max-height:250px;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Name : {{item.first_name}} {{item.last_name}}</h5>
+                        <p class="card-text">User Name : {{item.username}}</p>
+                        <p class="card-text">email :{{item.email}}</p>
+                        <p class="card-text">Users Types :<b>{{item.Types_of_Users}}</b></p>
+                        <p class="card-text">Address :{{item.address}}</p>
+                        <p class="card-text">city :{{item.city}}</p>
+                        <p class="card-text">state :{{item.state}}</p>
+                        <p class="card-text">pincode :{{item.pincode}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock 'page_body' %}

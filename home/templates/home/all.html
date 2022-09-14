@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block 'page_body' %}
+
+
+<div class="container">
+    {% comment %} <div class="row"> {% endcomment %}
+    <h3>Mental Health</h3>
+        <div class="row">
+        {% if item1 %}
+            {% for item in item1 %}
+                <div class="col-lg-4 col-md-4">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href="all/{{item.slug}}/">
+                            <img class="card-img-top" src="{{item.images.url}}" alt="{{item.title}}" style="min-height:200px; max-height:200px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Title : {{item.title}}</h5>
+                            </a>
+                                <p class="card-text">Summary : {{item.Content | truncatewords:15}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h5>No blog</h5>
+        {% endif %}
+    </div>
+    <h3>Heart Disease</h3>
+        <div class="row">
+        {% if item2 %}
+            {% for item in item2 %}
+                <div class="col-lg-4 col-md-4">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href="all/{{item.slug}}/">
+                            <img class="card-img-top" src="{{item.images.url}}" alt="{{item.title}}" style="min-height:200px; max-height:200px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Title : {{item.title}}</h5>
+                            </a>
+                                <p class="card-text">Summary : {{item.Content | truncatewords:15}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h5>No blog</h5>
+        {% endif %}
+    </div>
+
+    <h3>Covid19</h3>
+        <div class="row">
+        {% if item3 %}
+            {% for item in item3 %}
+                <div class="col-lg-4 col-md-4">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href="all/{{item.slug}}/">
+                            <img class="card-img-top" src="{{item.images.url}}" alt="{{item.title}}" style="min-height:200px; max-height:200px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Title : {{item.title}}</h5>
+                            </a>
+                                <p class="card-text">Summary : {{item.Content | truncatewords:15}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h5>No blog</h5>
+        {% endif %}
+        </div>
+
+
+    <h3>Immunization</h3>
+        <div class="row">
+        {% if item4 %}
+            {% for item in item4 %}
+                <div class="col-lg-4 col-md-4">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href="all/{{item.slug}}/">
+                            <img class="card-img-top" src="{{item.images.url}}" alt="{{item.title}}" style="min-height:200px; max-height:200px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Title : {{item.title}}</h5>
+                            </a>
+                                <p class="card-text">Summary : {{item.Content | truncatewords:15}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h5>No blog</h5>
+        {% endif %}
+    </div>
+
+    </div>
+</div>
+
+{% endblock 'page_body' %}
+

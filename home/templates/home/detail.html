@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block 'title' %}Blog{% endblock 'title' %}
+
+{% block 'page_body' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-11 col-md-11">
+            {% include 'home/messages.html' %}
+            <div class="card-deck">
+                <div class="card">
+                    <h5 class="card-title">Title : {{item.title}} {{item.last_name}}</h5>
+                    <div class="col-lg-7 col-md-7">
+                        <img class="card-img-top" src="{{item.images.url}}" alt="{{item.title}}" style="min-height:200px; max-height:200px;">
+                    </div>
+                    <div class="card-body">
+                        <h3><b>Content </b></h3>
+                        <p class="card-text"> {{item.Content}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock 'page_body' %}

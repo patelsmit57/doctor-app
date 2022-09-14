@@ -1,0 +1,433 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "4lg44fbew8qsldaaborbnjbtmhxbsiic",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgdACX7j0DmTKDVA0kpV0Z765NutDtf-_9l4i4rSVunZc4kzgLLU6_24TpwXUHdMd6azK1ui7zJHdFHrTLayN-Xg7376BgL986e2BKXo2kHYFBcjkzhOTsFLJFIvZESTtjRwNIaTCD1qACKgPaKSfeHwnXOAY:1oWDDR:vLsqc_Iglu4CHcUN4ztJJkBvwEbkBcaKNJHbbfoU01I",
+        "expire_date": "2022-09-22T08:48:53.308Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "84ow2h2agmonqezqo9bdqbffdm5qzjem",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgdACX7j0DmTKDVA0kpV0Z765NutDtf-_9l4i4rSVunZc4kzgLLU6_24TpwXUHdMd6azK1ui7zJHdFHrTLayN-Xg7376BgL986e2BKXo2kHYFBcjkzhOTsFLJFIvZESTtjRwNIaTCD1qACKgPaKSfeHwnXOAY:1oY3ck:TdWK8jDQtPXDhVZK3myyXZjzYrLOdSFnP-NH3egxlv8",
+        "expire_date": "2022-09-27T10:58:38.338Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a9zsauaw0nv9708l1k5zb9dhkfwh7mok",
+    "fields": {
+        "session_data": ".eJxVjDsOwyAQRO9CHSEwX6dM7zOgXViCkwgkY1dR7h5bcpGUM-_NvFmAbS1h67SEObErU-zy2yHEJ9UDpAfUe-Ox1XWZkR8KP2nnU0v0up3u30GBXva1McqQzDlah8pZL0lKD3rwOo_ohBARhUSQymaPe8yjQFLaA4khOnTs8wXK4jdb:1oYKcH:WHsTXmY7aimJwBNpxvX-4ogtmhwPnm5rGX-gv-ehlC4",
+        "expire_date": "2022-09-28T05:07:17.553Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kfdhzsks4ngjd0ea52kmfcwx0equmc7s",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgdACX7j0DmTKDVA0kpV0Z765NutDtf-_9l4i4rSVunZc4kzgLLU6_24TpwXUHdMd6azK1ui7zJHdFHrTLayN-Xg7376BgL986e2BKXo2kHYFBcjkzhOTsFLJFIvZESTtjRwNIaTCD1qACKgPaKSfeHwnXOAY:1oYLIO:SFN9eQyNiW1YIERAPeusn6YSllpaC7trA-qiP_XYkbQ",
+        "expire_date": "2022-09-28T05:50:48.573Z"
+    }
+},
+{
+    "model": "home.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$tM1YmrV3Q3iJuEkwbRxpsK$cHMKwZklFkjxJaYlvmNIyhYjFqer3Ljk514Jo8Q/3Uk=",
+        "last_login": "2022-09-14T05:50:48.491Z",
+        "is_superuser": true,
+        "username": "smit",
+        "first_name": "Smit",
+        "last_name": "Patel",
+        "email": "patelsmit15150@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-09-08T08:09:53Z",
+        "picture": "photos/2022/09/08/smit.jpg",
+        "address": "123 xyz",
+        "city": "Palanpur",
+        "state": "Gujarat",
+        "pincode": 385001,
+        "Types_of_Users": "Doctor",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "home.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$jAGwHEKvcP7js0jhGlGTXj$qutFei7ANTpXTPt5LiZCQblNVyYQuBR/oZ3M3EERFm0=",
+        "last_login": "2022-09-13T10:48:08.648Z",
+        "is_superuser": false,
+        "username": "xyz",
+        "first_name": "xyz",
+        "last_name": "PATEL",
+        "email": "xyz@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-08T08:43:08.945Z",
+        "picture": "photos/2022/09/08/ford-mustang.png",
+        "address": "47, CITY",
+        "city": "Palanpur",
+        "state": "Gujarat",
+        "pincode": 385001,
+        "Types_of_Users": "Doctor",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "home.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$5kB9SLNHxagEyJCTV2cAS9$Ec3gaJRKs6jhBNBK8Jfzd0CFnRm6TkUT/8UzflOsOaY=",
+        "last_login": "2022-09-14T05:07:17.521Z",
+        "is_superuser": false,
+        "username": "patel",
+        "first_name": "SMIT",
+        "last_name": "PATEL",
+        "email": "patel@student.rru.ac.in",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-08T08:46:20.213Z",
+        "picture": "photos/2022/09/08/1smit.jpg",
+        "address": "47, CITY ",
+        "city": "Palanpur",
+        "state": "Gujarat",
+        "pincode": 385001,
+        "Types_of_Users": "Patient",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "home.postsmodel",
+    "pk": 1,
+    "fields": {
+        "title": "sdf sdkf",
+        "images": "image/2022/09/08/woman-doctor.webp",
+        "Category": "2",
+        "Content": "Wingstop Inc. is an American multinational chain of aviation-themed restaurants specializing in chicken wings. Wingstop locations are decorated following a 1930s and 1940s pre-jet aviation theme. The restaurant chain was founded in 1994 in Garland, Texas, and began offering franchises in 1997.",
+        "username": "smit",
+        "slug": "sdf-sdkf"
+    }
+},
+{
+    "model": "home.postsmodel",
+    "pk": 2,
+    "fields": {
+        "title": "wed df",
+        "images": "image/2022/09/08/images.jfif",
+        "Category": "3",
+        "Content": "Wingstop Inc. is an American multinational chain of aviation-themed restaurants specializing in chicken wings. Wingstop locations are decorated following a ...",
+        "username": "smit",
+        "slug": "wed-df"
+    }
+},
+{
+    "model": "home.postsmodel",
+    "pk": 3,
+    "fields": {
+        "title": "weasc aesvmd ",
+        "images": "image/2022/09/08/images_1.jfif",
+        "Category": "3",
+        "Content": "Doctor's Data lab results are available for clinicians to review online. Sign in now. Access results and insightful commentary written by the Doctor's Data scientific team. Operating since 1972. Innovative specialty test. Services: Gastrointestinal health, Toxic elements.",
+        "username": "xyz",
+        "slug": "weasc-aesvmd-"
+    }
+},
+{
+    "model": "home.appointmentmodel",
+    "pk": 10,
+    "fields": {
+        "doctor_name": "xyz",
+        "patient_name": "patel",
+        "speciality": "sddx",
+        "date": "2022-09-14",
+        "start_Time": "11:00:00",
+        "end_time": "11:45:00"
+    }
+},
+{
+    "model": "home.appointmentmodel",
+    "pk": 11,
+    "fields": {
+        "doctor_name": "smit",
+        "patient_name": "patel",
+        "speciality": "sdkjvfdkl",
+        "date": "2022-09-15",
+        "start_Time": "01:54:00",
+        "end_time": "02:39:00"
+    }
+},
+{
+    "model": "home.appointmentmodel",
+    "pk": 12,
+    "fields": {
+        "doctor_name": "smit",
+        "patient_name": "patel",
+        "speciality": "ascmdcx ",
+        "date": "2022-09-15",
+        "start_Time": "20:10:00",
+        "end_time": "20:55:00"
+    }
+},
+{
+    "model": "home.appointmentmodel",
+    "pk": 13,
+    "fields": {
+        "doctor_name": "xyz",
+        "patient_name": "patel",
+        "speciality": "sdkjvfdkl",
+        "date": "2022-09-17",
+        "start_Time": "10:25:00",
+        "end_time": "11:10:00"
+    }
+},
+{
+    "model": "home.appointmentmodel",
+    "pk": 14,
+    "fields": {
+        "doctor_name": "xyz",
+        "patient_name": "patel",
+        "speciality": "abc",
+        "date": "2022-09-16",
+        "start_Time": "10:40:00",
+        "end_time": "11:25:00"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-09-08T08:11:54.986Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "smit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Picture\", \"Address\", \"City\", \"State\", \"Pincode\", \"Types of Users\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-09-08T08:12:24.997Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "smit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Types of Users\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-09-08T08:29:48.386Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "postsmodel"
+        ],
+        "object_id": "1",
+        "object_repr": "sdf sdkf   ->category: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-09-08T08:38:18.148Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "postsmodel"
+        ],
+        "object_id": "2",
+        "object_repr": "wed df   ->category: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-09-13T17:44:24.349Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "4",
+        "object_repr": "sdkjvfdkl  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-09-13T17:44:24.410Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "3",
+        "object_repr": "sdkjvfdkl  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-09-13T17:44:24.413Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "2",
+        "object_repr": "sddx  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-09-13T17:59:04.764Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "6",
+        "object_repr": "sdkjvfdkl  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-09-13T17:59:04.849Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "5",
+        "object_repr": "sddx  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-09-13T18:07:52.629Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "7",
+        "object_repr": "sdkjvfdkl  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-09-13T18:07:52.690Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "1",
+        "object_repr": "qw  ---> docter : xyz",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-09-13T18:18:50.722Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "9",
+        "object_repr": "sddxeasd  ---> docter : xyz",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-09-13T18:18:50.805Z",
+        "user": [
+            "smit"
+        ],
+        "content_type": [
+            "home",
+            "appointmentmodel"
+        ],
+        "object_id": "8",
+        "object_repr": "sddx  ---> docter : smit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
