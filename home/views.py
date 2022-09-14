@@ -4,22 +4,6 @@ from django.contrib import messages,auth
 from django.contrib.auth.decorators import login_required
 
 
-
-
-
-# from google.oauth2 import service_account
-
-# SCOPES = ["https://www.googleapis.com/auth/calendar"]
-
-# service_account_email = "doctor-patient-banao@banao-django.iam.gserviceaccount.com"
-# credentials = service_account.Credentials.from_service_account_file('banao-django-c8a0ae96b868.json')
-# scoped_credentials = credentials.with_scopes(SCOPES)
-# calendarId = "mgvajulokdn99ps47eb2g02728@group.calendar.google.com"
-
-
-
-
-
 # Create your views here.
 @login_required(login_url='login')
 def dashboard(request):
